@@ -2,9 +2,11 @@ import Newfunc from './chai'
 
 function App() {
 
+  const username = "React"
+
   return (
     <>
-      <h1>React Journey With Vite | Vishal Belwal</h1>
+      <h1>{username} Journey With Vite | Vishal Belwal</h1>    {/*curly braces ko evaluated expression bolte hai */}
       <Newfunc />
     </>
     
