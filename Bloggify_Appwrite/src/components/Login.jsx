@@ -63,7 +63,7 @@ function Login() {
               {...register("email", {
                 required: true,    //regxr
                 validate: {
-                  matchPattern: (value) => //. test(value) ||
+                  matchPattern: (value) => /^([\w\.\-_]+)?\w+@[\w-_]+(\.\w+){1,}$/. test(value) ||
                    "Email address must be Valid",
                 }
               })}
