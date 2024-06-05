@@ -1,33 +1,30 @@
+import Select from "./Select";
 import Header from "./header/Header";
 import Footer from "./footer/Footer";
 import Container from "./container/Container";
 import Logo from "./Logo";
-import LogoutBTN from "./header/LogoutBTN";
-import Button from './Button';
-import Input from './Input';
-import RealTimeEditor from "./RTE";
-import SignupPage from "../pages/Signup";
+import LogoutBtn from "./header/LogoutBTN";
+import RealTimeEditor from "../components/RealTimeEditor";
 import Signup from "./Signup";
-import LoginPage from "../pages/LoginPage";
-import PostForm from "./PostForm/PostForm";
-import PostCard from './PostCard'
-import Protected from "./AuthLayout";
-import Select from './Select'
-
+import Login from "./Login";
+import Button from "./Button";
+import PostForm from "./post-form/PostForm";
+import PostCard from "./PostCard";
+import AuthLayout from "./AuthLayout";
+import Input from "./Input";
 export {
-  Header,
-  Footer,
-  Container,
-  Logo,
-  LogoutBTN,
-  Button,
-  Input,
-  RealTimeEditor,
-  SignupPage,
-  Signup,
-  LoginPage,
-  PostForm,
-  PostCard,
-  Protected,
-  Select,
+    Header,
+    Footer,
+    Container,
+    Logo,
+    LogoutBtn,
+    RealTimeEditor,
+    Signup,
+    Login,
+    Button,
+    PostForm,
+    PostCard,
+    AuthLayout, 
+    Input,
+    Select,
 }
